@@ -1,3 +1,47 @@
-<p>
-  setup works!
-</p>
+<div>
+  <h1>Choose your level</h1>
+</div>
+<hr>
+<div style="align-content:center">
+  <table>
+    <thead>
+    </thead>
+    <tbody>
+    <tr *ngFor="let level of levels; let idx = index">
+      <td>{{ level.description }}</td>
+      <td>
+        <label>
+          <input type="radio" name="radiogroup"
+                 [checked]="idx === 0"
+                 [value]="level.id"
+                 (change)="onLevelSelectionChange(level)">
+        </label>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<div>
+  <h1>Choose your categories</h1>
+</div>
+<hr>
+<div>
+  <table>
+    <tbody>
+    <tr *ngFor="let category of categories">
+      <td>{{ category.description }}</td>
+      <td>
+        <label>
+          <input type="checkbox"
+                 [checked]="category.selected"
+                 [value]="category.id"
+                 (change)="category.selected = !category.selected">
+        </label>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <br>
+  <button (click)="startQuiz()">Start quiz</button>
+</div>
