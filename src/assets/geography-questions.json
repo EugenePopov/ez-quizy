@@ -1,0 +1,259 @@
+{
+  "questions": [
+    {
+      "question": "How many continents are there?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "5"
+        },
+        {
+          "choice": "6"
+        },
+        {
+          "choice": "7"
+        }
+      ]
+    },
+    {
+      "question": "In which country is Krakow located?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "China"
+        },
+        {
+          "choice": "Moldova"
+        },
+        {
+          "choice": "Poland"
+        }
+      ]
+    },
+    {
+      "question": "How many time zones are there in the world?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "8"
+        },
+        {
+          "choice": "12"
+        },
+        {
+          "choice": "24"
+        }
+      ]
+    },
+    {
+      "question": "Which is the largest desert on earth?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "Gobi"
+        },
+        {
+          "choice": "Sahara"
+        },
+        {
+          "choice": "Mojave"
+        }
+      ]
+    },
+    {
+      "question": "What is a very cold part of Russia?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "Ural"
+        },
+        {
+          "choice": "Siberia"
+        },
+        {
+          "choice": "Tundra"
+        }
+      ]
+    },
+    {
+      "question": "What island, which belonged to Denmark, was independent in 1944?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Iceland"
+        },
+        {
+          "choice": "Groenland"
+        },
+        {
+          "choice": "Kotlin"
+        },
+        {
+          "choice": "Sicily"
+        }
+      ]
+    },
+    {
+      "question": "On which continent can you visit Sierra Leone?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Europe"
+        },
+        {
+          "choice": "South America"
+        },
+        {
+          "choice": "North America"
+        },
+        {
+          "choice": "Africa"
+        }
+      ]
+    },
+    {
+      "question": "What is the longest river in Europe?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Danube"
+        },
+        {
+          "choice": "Wolga"
+        },
+        {
+          "choice": "Lena"
+        },
+        {
+          "choice": "Tiber"
+        }
+      ]
+    },
+    {
+      "question": "What is the capital of the American state Hawaii?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Honolulu"
+        },
+        {
+          "choice": "Halawa"
+        },
+        {
+          "choice": "Antananarivu"
+        },
+        {
+          "choice": "Kailua"
+        }
+      ]
+    },
+    {
+      "question": "What is the second largest country in Europe after Russia?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Italy"
+        },
+        {
+          "choice": "France"
+        },
+        {
+          "choice": "Germany"
+        },
+        {
+          "choice": "Spain"
+        }
+      ]
+    },
+    {
+      "question": "What is the largest state of the United States?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "Alaska"
+        },
+        {
+          "choice": "Texas"
+        },
+        {
+          "choice": "Alabama"
+        },
+        {
+          "choice": "California"
+        }
+      ]
+    },
+    {
+      "question": "Which country did once have the name Rhodesia?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "Indonesia"
+        },
+        {
+          "choice": "Zimbabwe"
+        },
+        {
+          "choice": "Argentina"
+        },
+        {
+          "choice": "Australia"
+        }
+      ]
+    },
+    {
+      "question": "What is the noisiest city in the world?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "New York"
+        },
+        {
+          "choice": "Moscow"
+        },
+        {
+          "choice": "Amsterdam"
+        },
+        {
+          "choice": "Hong-Kong"
+        }
+      ]
+    },
+    {
+      "question": "Through which capital does the Liffey river flow?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "Dublin"
+        },
+        {
+          "choice": "London"
+        },
+        {
+          "choice": "Amsterdam"
+        },
+        {
+          "choice": "Prague"
+        }
+      ]
+    },
+    {
+      "question": "Which two seas are joined by the Suez Canal?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "The Mediterranean Sea and the Red Seas"
+        },
+        {
+          "choice": "Black and North Seas"
+        },
+        {
+          "choice": "Red and Dead Seas"
+        },
+        {
+          "choice": "Carribean and Argentine Seas"
+        }
+      ]
+    }
+  ]
+}

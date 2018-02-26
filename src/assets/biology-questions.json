@@ -1,0 +1,259 @@
+{
+  "questions": [
+    {
+      "question": "What is the name for the specialized nerve cell that transmits information chemically and electrically throughout the body?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "Neuron"
+        },
+        {
+          "choice": "Gluon"
+        },
+        {
+          "choice": "Neutron"
+        }
+      ]
+    },
+    {
+      "question": "The molecule hemoglobin is used in which type of cells?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "White blood cells"
+        },
+        {
+          "choice": "Red blood cells"
+        },
+        {
+          "choice": "Green blood cells"
+        }
+      ]
+    },
+    {
+      "question": "What vitamin is produced when a person is exposed to sunlight?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "C"
+        },
+        {
+          "choice": "D"
+        },
+        {
+          "choice": "E"
+        }
+      ]
+    },
+    {
+      "question": "Most adults have how many canine teeth?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "2"
+        },
+        {
+          "choice": "3"
+        },
+        {
+          "choice": "4"
+        }
+      ]
+    },
+    {
+      "question": "What is the largest animal currently on Earth?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "Elephant"
+        },
+        {
+          "choice": "Blue Whale"
+        },
+        {
+          "choice": "Giraffe"
+        }
+      ]
+    },
+    {
+      "question": "Which gland in the human body regulates metabolism?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Thyroid"
+        },
+        {
+          "choice": "Hypothalamus"
+        },
+        {
+          "choice": "Pancreas"
+        },
+        {
+          "choice": "Adrenal glands"
+        }
+      ]
+    },
+    {
+      "question": "In humans, what is the only internal organ capable of regenerating lost tissue?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Brain"
+        },
+        {
+          "choice": "Heart"
+        },
+        {
+          "choice": "Liver"
+        },
+        {
+          "choice": "Stomach"
+        }
+      ]
+    },
+    {
+      "question": "Approximately 2% of all people have what eye color?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Blue"
+        },
+        {
+          "choice": "Green"
+        },
+        {
+          "choice": "Yellow"
+        },
+        {
+          "choice": "Red"
+        }
+      ]
+    },
+    {
+      "question": "What is the largest internal organ of the human body?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Lungs"
+        },
+        {
+          "choice": "Liver"
+        },
+        {
+          "choice": "Heart"
+        },
+        {
+          "choice": "Pancreas"
+        }
+      ]
+    },
+    {
+      "question": "How many pairs of chromosomes are in found in the average human?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "21"
+        },
+        {
+          "choice": "22"
+        },
+        {
+          "choice": "23"
+        },
+        {
+          "choice": "24"
+        }
+      ]
+    },
+    {
+      "question": "How many chambers are there in a dog's heart?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "1"
+        },
+        {
+          "choice": "2"
+        },
+        {
+          "choice": "3"
+        },
+        {
+          "choice": "4"
+        }
+      ]
+    },
+    {
+      "question": "What animal has the fastest metabolism?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "Cat"
+        },
+        {
+          "choice": "Tiger"
+        },
+        {
+          "choice": "Hummingbird"
+        },
+        {
+          "choice": "Eagle"
+        }
+      ]
+    },
+    {
+      "question": "Which animal has the longest gestation period?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "The African elephant"
+        },
+        {
+          "choice": "Human"
+        },
+        {
+          "choice": "Blue Whale"
+        },
+        {
+          "choice": "Dog"
+        }
+      ]
+    },
+    {
+      "question": "Which bone is the longest bone in the human body?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "Ulnae"
+        },
+        {
+          "choice": "Radia"
+        },
+        {
+          "choice": "Femur"
+        },
+        {
+          "choice": "Tibia"
+        }
+      ]
+    },
+    {
+      "question": "What blood type do you need to be a universal donor?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "Type O"
+        },
+        {
+          "choice": "Type A"
+        },
+        {
+          "choice": "Type B"
+        },
+        {
+          "choice": "Type AB"
+        }
+      ]
+    }
+  ]
+}
