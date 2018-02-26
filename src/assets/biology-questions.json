@@ -5,13 +5,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "Neuron"
+          "choice": "Neuron",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Gluon"
+          "choice": "Gluon",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Neutron"
+          "choice": "Neutron",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -20,13 +26,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "White blood cells"
+          "choice": "White blood cells",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Red blood cells"
+          "choice": "Red blood cells",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Green blood cells"
+          "choice": "Green blood cells",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -35,13 +47,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "C"
+          "choice": "C",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "D"
+          "choice": "D",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "E"
+          "choice": "E",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -50,13 +68,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "2"
+          "choice": "2",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "3"
+          "choice": "3",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "4"
+          "choice": "4",
+          "selected": false,
+          "isCorrect": true
         }
       ]
     },
@@ -65,13 +89,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "Elephant"
+          "choice": "Elephant",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Blue Whale"
+          "choice": "Blue Whale",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Giraffe"
+          "choice": "Giraffe",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -80,16 +110,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Thyroid"
+          "choice": "Thyroid",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Hypothalamus"
+          "choice": "Hypothalamus",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Pancreas"
+          "choice": "Pancreas",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Adrenal glands"
+          "choice": "Adrenal glands",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -98,16 +136,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Brain"
+          "choice": "Brain",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Heart"
+          "choice": "Heart",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Liver"
+          "choice": "Liver",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Stomach"
+          "choice": "Stomach",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -116,16 +162,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Blue"
+          "choice": "Blue",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Green"
+          "choice": "Green",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Yellow"
+          "choice": "Yellow",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Red"
+          "choice": "Red",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -134,34 +188,50 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Lungs"
+          "choice": "Lungs",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Liver"
+          "choice": "Liver",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Heart"
+          "choice": "Heart",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Pancreas"
+          "choice": "Pancreas",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
     {
-      "question": "How many pairs of chromosomes are in found in the average human?",
+      "question": "How many pairs of chromosomes are found in the average human?",
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "21"
+          "choice": "21",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "22"
+          "choice": "22",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "23"
+          "choice": "23",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "24"
+          "choice": "24",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -170,16 +240,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "1"
+          "choice": "1",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "2"
+          "choice": "2",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "3"
+          "choice": "3",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "4"
+          "choice": "4",
+          "selected": false,
+          "isCorrect": true
         }
       ]
     },
@@ -188,16 +266,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "Cat"
+          "choice": "Cat",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Tiger"
+          "choice": "Tiger",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Hummingbird"
+          "choice": "Hummingbird",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Eagle"
+          "choice": "Eagle",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -206,16 +292,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "The African elephant"
+          "choice": "The African elephant",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Human"
+          "choice": "Human",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Blue Whale"
+          "choice": "Blue Whale",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Dog"
+          "choice": "Dog",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -224,16 +318,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "Ulnae"
+          "choice": "Ulnae",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Radia"
+          "choice": "Radia",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Femur"
+          "choice": "Femur",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Tibia"
+          "choice": "Tibia",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -242,16 +344,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "Type O"
+          "choice": "Type O",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Type A"
+          "choice": "Type A",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Type B"
+          "choice": "Type B",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Type AB"
+          "choice": "Type AB",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     }
