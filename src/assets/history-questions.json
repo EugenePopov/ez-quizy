@@ -1,0 +1,259 @@
+{
+  "questions": [
+    {
+      "question": "Who was the first president of the USA?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "George Washington"
+        },
+        {
+          "choice": "Abraham Lincoln"
+        },
+        {
+          "choice": "Bill Clinton"
+        }
+      ]
+    },
+    {
+      "question": "Who was the first king of Belgium ?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "Leopold I"
+        },
+        {
+          "choice": "Leopold II"
+        },
+        {
+          "choice": "Leopold III"
+        }
+      ]
+    },
+    {
+      "question": "What is the name for the branch of the French Army created for foreign recruits?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "Foreign Regiment"
+        },
+        {
+          "choice": "French Foreign Batallion"
+        },
+        {
+          "choice": "French Foreign Legion"
+        }
+      ]
+    },
+    {
+      "question": "According to Greek mythology, who was the god of wine?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "Zeus"
+        },
+        {
+          "choice": "Dionysos"
+        },
+        {
+          "choice": "Poseidon"
+        }
+      ]
+    },
+    {
+      "question": "What is the name for the military nobility and officer caste that existed in medieval and early-modern Japan?",
+      "level": "EASY",
+      "choices": [
+        {
+          "choice": "Samurai"
+        },
+        {
+          "choice": "Hagakure"
+        },
+        {
+          "choice": "Harakiri"
+        }
+      ]
+    },
+    {
+      "question": "What was the name of Napoleon s first wife?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Lily"
+        },
+        {
+          "choice": "Josephine"
+        },
+        {
+          "choice": "Laura"
+        },
+        {
+          "choice": "Christine"
+        }
+      ]
+    },
+    {
+      "question": "Which war was ended by the signing the armistice on July 27 th, 1953?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Vietnam"
+        },
+        {
+          "choice": "Korean"
+        },
+        {
+          "choice": "World War II"
+        },
+        {
+          "choice": "Spain Civil War"
+        }
+      ]
+    },
+    {
+      "question": "Xerxes ruled a great empire around the fifth century BC. Which empire?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Persian"
+        },
+        {
+          "choice": "Roman"
+        },
+        {
+          "choice": "Chinese"
+        },
+        {
+          "choice": "German"
+        }
+      ]
+    },
+    {
+      "question": "Which country was formerly called Ceylon?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "India"
+        },
+        {
+          "choice": "Sri Lanka"
+        },
+        {
+          "choice": "Indonesia"
+        },
+        {
+          "choice": "New Zeeland"
+        }
+      ]
+    },
+    {
+      "question": "Which city was the capital of Australia from 1901 to 1927?",
+      "level": "MEDIUM",
+      "choices": [
+        {
+          "choice": "Sydney"
+        },
+        {
+          "choice": "Canberra"
+        },
+        {
+          "choice": "Melbourne"
+        },
+        {
+          "choice": "Devonport"
+        }
+      ]
+    },
+    {
+      "question": "In which city was the Titanic built?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "London"
+        },
+        {
+          "choice": "Washington"
+        },
+        {
+          "choice": "Belfast"
+        },
+        {
+          "choice": "Berlin"
+        }
+      ]
+    },
+    {
+      "question": "Siddhartha Gautama is believed to be the founder of what religion?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "Hinduism"
+        },
+        {
+          "choice": "Sikhism"
+        },
+        {
+          "choice": "Buddhism"
+        },
+        {
+          "choice": "Shinto"
+        }
+      ]
+    },
+    {
+      "question": "Who was the second president of the United States?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "John Adams"
+        },
+        {
+          "choice": "George Bush"
+        },
+        {
+          "choice": "Ronald Reagan"
+        },
+        {
+          "choice": "Lyndon B. Johnson"
+        }
+      ]
+    },
+    {
+      "question": "What was the former name of New York?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "New London"
+        },
+        {
+          "choice": "New Amsterdam"
+        },
+        {
+          "choice": "New Sydney"
+        },
+        {
+          "choice": "New Dublin"
+        }
+      ]
+    },
+    {
+      "question": "The Battle of Jutland was a naval battle that occurred during which war?",
+      "level": "HARD",
+      "choices": [
+        {
+          "choice": "World War I"
+        },
+        {
+          "choice": "World War II"
+        },
+        {
+          "choice": "Cold War"
+        },
+        {
+          "choice": "French and Indian War"
+        }
+      ]
+    }
+  ]
+}

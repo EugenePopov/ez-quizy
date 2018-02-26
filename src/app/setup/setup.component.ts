@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {QuestionsReaderService} from '../questions-reader.service';
 
 @Component({
   selector: 'app-setup',
@@ -10,15 +11,15 @@ export class SetupComponent implements OnInit {
   levels = [
     {
       id: 1,
-      description: 'Easy'
+      description: 'EASY'
     },
     {
       id: 2,
-      description: 'Medium'
+      description: 'MEDIUM'
     },
     {
       id: 3,
-      description: 'Hard'
+      description: 'HARD'
     }
   ];
 
@@ -40,23 +41,31 @@ export class SetupComponent implements OnInit {
     }
   ];
 
-  selectedLevel = this.levels[0];
+  selectedLevel: string;
 
-  constructor() {
+  questions = [];
+
+  constructor(private reader: QuestionsReaderService) {
   }
 
   ngOnInit() {
+    this.selectedLevel = 'EASY';
   }
 
   onLevelSelectionChange(level) {
-    this.selectedLevel = Object.assign({}, this.selectedLevel, level);
+    this.selectedLevel = level.description;
   }
 
   startQuiz() {
-
+    this.getAllQuestions();
+    console.log(this.questions);
   }
 
-  generateQuestions() {
-
+  getAllQuestions() {
+    this.categories
+      .filter(category => category.selected)
+      .forEach(category => this.reader.getQuestions(category.description).subscribe(data => {
+        this.questions.push(data.questions.filter(question => question.level === this.selectedLevel));
+      }));
   }
 }

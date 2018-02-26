@@ -5,6 +5,8 @@ import {AppRoutingModule, routingComponents} from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { SetupComponent } from './setup/setup.component';
+import {QuestionsReaderService} from './questions-reader.service';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -15,9 +17,10 @@ import { SetupComponent } from './setup/setup.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [QuestionsReaderService, HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
