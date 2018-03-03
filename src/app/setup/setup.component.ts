@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {QuestionsReaderService} from '../questions-reader.service';
+import {DataService} from '../data.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-setup',
@@ -45,7 +47,7 @@ export class SetupComponent implements OnInit {
 
   questions = [];
 
-  constructor(private reader: QuestionsReaderService) {
+  constructor(private reader: QuestionsReaderService, private dataService: DataService, private router: Router) {
   }
 
   ngOnInit() {
@@ -58,7 +60,8 @@ export class SetupComponent implements OnInit {
 
   startQuiz() {
     this.getAllQuestions();
-    console.log(this.questions);
+    this.dataService.passQuestions(this.questions);
+    this.router.navigateByUrl('quiz');
   }
 
   getAllQuestions() {

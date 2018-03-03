@@ -5,13 +5,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "5"
+          "choice": "5",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "6"
+          "choice": "6",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "7"
+          "choice": "7",
+          "selected": false,
+          "isCorrect": true
         }
       ]
     },
@@ -20,13 +26,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "China"
+          "choice": "China",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Moldova"
+          "choice": "Moldova",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Poland"
+          "choice": "Poland",
+          "selected": false,
+          "isCorrect": true
         }
       ]
     },
@@ -35,13 +47,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "8"
+          "choice": "8",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "12"
+          "choice": "12",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "24"
+          "choice": "24",
+          "selected": false,
+          "isCorrect": true
         }
       ]
     },
@@ -50,13 +68,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "Gobi"
+          "choice": "Gobi",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Sahara"
+          "choice": "Sahara",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Mojave"
+          "choice": "Mojave",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -65,13 +89,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "Ural"
+          "choice": "Ural",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Siberia"
+          "choice": "Siberia",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Tundra"
+          "choice": "Tundra",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -80,16 +110,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Iceland"
+          "choice": "Iceland",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Groenland"
+          "choice": "Groenland",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Kotlin"
+          "choice": "Kotlin",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Sicily"
+          "choice": "Sicily",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -98,16 +136,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Europe"
+          "choice": "Europe",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "South America"
+          "choice": "South America",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "North America"
+          "choice": "North America",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Africa"
+          "choice": "Africa",
+          "selected": false,
+          "isCorrect": true
         }
       ]
     },
@@ -116,16 +162,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Danube"
+          "choice": "Danube",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Wolga"
+          "choice": "Wolga",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Lena"
+          "choice": "Lena",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Tiber"
+          "choice": "Tiber",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -134,16 +188,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Honolulu"
+          "choice": "Honolulu",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Halawa"
+          "choice": "Halawa",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Antananarivu"
+          "choice": "Antananarivu",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Kailua"
+          "choice": "Kailua",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -152,16 +214,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Italy"
+          "choice": "Italy",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "France"
+          "choice": "France",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Germany"
+          "choice": "Germany",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Spain"
+          "choice": "Spain",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -170,16 +240,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "Alaska"
+          "choice": "Alaska",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Texas"
+          "choice": "Texas",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Alabama"
+          "choice": "Alabama",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "California"
+          "choice": "California",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -188,16 +266,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "Indonesia"
+          "choice": "Indonesia",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Zimbabwe"
+          "choice": "Zimbabwe",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Argentina"
+          "choice": "Argentina",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Australia"
+          "choice": "Australia",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -206,16 +292,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "New York"
+          "choice": "New York",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Moscow"
+          "choice": "Moscow",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Amsterdam"
+          "choice": "Amsterdam",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Hong-Kong"
+          "choice": "Hong-Kong",
+          "selected": false,
+          "isCorrect": true
         }
       ]
     },
@@ -224,16 +318,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "Dublin"
+          "choice": "Dublin",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "London"
+          "choice": "London",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Amsterdam"
+          "choice": "Amsterdam",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Prague"
+          "choice": "Prague",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -242,16 +344,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "The Mediterranean Sea and the Red Seas"
+          "choice": "The Mediterranean Sea and the Red Seas",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Black and North Seas"
+          "choice": "Black and North Seas",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Red and Dead Seas"
+          "choice": "Red and Dead Seas",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Carribean and Argentine Seas"
+          "choice": "Carribean and Argentine Seas",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     }

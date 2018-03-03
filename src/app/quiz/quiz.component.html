@@ -1,0 +1,22 @@
+<p>
+  quiz works!
+  <button *ngIf="idx != questions.length" (click)="getNextQuestion()">Next</button>
+  <button *ngIf="idx == questions.length" (click)="finishQuiz()">Finish</button>
+</p>
+<div style="align-content:center" *ngIf="currentQuestion != undefined">
+  <p>{{currentQuestion.question}}</p>
+  <table>
+    <tbody>
+    <tr *ngFor="let c of currentQuestion.choices">
+      <td>
+        <input type="radio" name="radiogroup"
+               [value]="c.choice"
+               (change)="c.selected = !c.selected">
+      </td>
+      <td>{{c.choice}}</td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+

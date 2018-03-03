@@ -5,13 +5,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "George Washington"
+          "choice": "George Washington",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Abraham Lincoln"
+          "choice": "Abraham Lincoln",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Bill Clinton"
+          "choice": "Bill Clinton",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -20,13 +26,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "Leopold I"
+          "choice": "Leopold I",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Leopold II"
+          "choice": "Leopold II",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Leopold III"
+          "choice": "Leopold III",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -35,13 +47,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "Foreign Regiment"
+          "choice": "Foreign Regiment",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "French Foreign Batallion"
+          "choice": "French Foreign Batallion",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "French Foreign Legion"
+          "choice": "French Foreign Legion",
+          "selected": false,
+          "isCorrect": true
         }
       ]
     },
@@ -50,13 +68,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "Zeus"
+          "choice": "Zeus",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Dionysos"
+          "choice": "Dionysos",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Poseidon"
+          "choice": "Poseidon",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -65,13 +89,19 @@
       "level": "EASY",
       "choices": [
         {
-          "choice": "Samurai"
+          "choice": "Samurai",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Hagakure"
+          "choice": "Hagakure",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Harakiri"
+          "choice": "Harakiri",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -80,16 +110,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Lily"
+          "choice": "Lily",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Josephine"
+          "choice": "Josephine",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Laura"
+          "choice": "Laura",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Christine"
+          "choice": "Christine",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -98,16 +136,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Vietnam"
+          "choice": "Vietnam",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Korean"
+          "choice": "Korean",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "World War II"
+          "choice": "World War II",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Spain Civil War"
+          "choice": "Spain Civil War",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -116,16 +162,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Persian"
+          "choice": "Persian",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Roman"
+          "choice": "Roman",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Chinese"
+          "choice": "Chinese",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "German"
+          "choice": "German",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -134,16 +188,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "India"
+          "choice": "India",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Sri Lanka"
+          "choice": "Sri Lanka",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Indonesia"
+          "choice": "Indonesia",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "New Zeeland"
+          "choice": "New Zeeland",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -152,16 +214,24 @@
       "level": "MEDIUM",
       "choices": [
         {
-          "choice": "Sydney"
+          "choice": "Sydney",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Canberra"
+          "choice": "Canberra",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Melbourne"
+          "choice": "Melbourne",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Devonport"
+          "choice": "Devonport",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -170,16 +240,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "London"
+          "choice": "London",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Washington"
+          "choice": "Washington",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Belfast"
+          "choice": "Belfast",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Berlin"
+          "choice": "Berlin",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -188,16 +266,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "Hinduism"
+          "choice": "Hinduism",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Sikhism"
+          "choice": "Sikhism",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Buddhism"
+          "choice": "Buddhism",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "Shinto"
+          "choice": "Shinto",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -206,16 +292,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "John Adams"
+          "choice": "John Adams",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "George Bush"
+          "choice": "George Bush",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Ronald Reagan"
+          "choice": "Ronald Reagan",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Lyndon B. Johnson"
+          "choice": "Lyndon B. Johnson",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -224,16 +318,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "New London"
+          "choice": "New London",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "New Amsterdam"
+          "choice": "New Amsterdam",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "New Sydney"
+          "choice": "New Sydney",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "New Dublin"
+          "choice": "New Dublin",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     },
@@ -242,16 +344,24 @@
       "level": "HARD",
       "choices": [
         {
-          "choice": "World War I"
+          "choice": "World War I",
+          "selected": false,
+          "isCorrect": true
         },
         {
-          "choice": "World War II"
+          "choice": "World War II",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "Cold War"
+          "choice": "Cold War",
+          "selected": false,
+          "isCorrect": false
         },
         {
-          "choice": "French and Indian War"
+          "choice": "French and Indian War",
+          "selected": false,
+          "isCorrect": false
         }
       ]
     }
