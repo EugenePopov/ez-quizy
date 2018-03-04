@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
+import * as moment from 'moment';
 import * as shuffle from 'shuffle-array';
 
 @Component({
@@ -14,6 +15,7 @@ export class QuizComponent implements OnInit {
   currentQuestion;
   finished = false;
   idx = 0;
+  quizTime;
 
   constructor(private route: ActivatedRoute) {
   }
@@ -25,11 +27,13 @@ export class QuizComponent implements OnInit {
   start() {
     this.questions = shuffle(this.flatterQuestions(this.questions));
     this.currentQuestion = this.questions[this.idx++];
-    console.log(this.questions);
+    this.getQuizTime();
   }
 
   getNextQuestion() {
     this.currentQuestion = this.questions[this.idx++];
+    console.log(this.quizTime);
+
   }
 
   finishQuiz() {
@@ -48,5 +52,21 @@ export class QuizComponent implements OnInit {
 
   private computePercentage(): string {
     return ((this.correctAnswers / this.questions.length) * 100).toFixed(2);
+  }
+
+  getQuizTime() {
+    const level = this.questions[0].level;
+
+    switch (level) {
+      case 'EASY':
+        this.quizTime = moment().add(10, 'minutes').toISOString();
+        break;
+      case 'MEDIUM':
+        this.quizTime = moment().add(7, 'minutes').toISOString();
+        break;
+      case 'HARD':
+        this.quizTime = moment().add(1, 'minutes').toISOString();
+        break;
+    }
   }
 }
