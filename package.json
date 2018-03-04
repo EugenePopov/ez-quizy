@@ -21,8 +21,10 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "angular2-moment": "^1.8.0",
     "array-shuffle": "^1.0.1",
     "core-js": "^2.4.1",
+    "ngx-countdown-timer": "^0.1.9",
     "rxjs": "^5.5.6",
     "shuffle-array": "^1.0.1",
     "zone.js": "^0.8.19"

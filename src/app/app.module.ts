@@ -10,6 +10,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {QuizComponent} from './quiz/quiz.component';
 import {DataService} from './data.service';
 import {QuestionsResolverGuard} from './questions-resolver.guard';
+import {CountdownTimerModule} from 'ngx-countdown-timer';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import {QuestionsResolverGuard} from './questions-resolver.guard';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    CountdownTimerModule.forRoot()
   ],
   providers: [QuestionsReaderService, HttpClient, DataService, QuestionsResolverGuard],
   bootstrap: [AppComponent]

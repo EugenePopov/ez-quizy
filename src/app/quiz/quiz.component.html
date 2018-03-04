@@ -1,5 +1,5 @@
 <div style="align-content:center" *ngIf="currentQuestion != undefined">
-  <p>{{idx}}. {{currentQuestion.question}}</p>
+  <p class="h1">{{idx}}. {{currentQuestion.question}}</p>
   <table>
     <tbody>
     <tr *ngFor="let c of currentQuestion.choices">
@@ -14,13 +14,17 @@
   </table>
   <hr>
 </div>
-<div>
-  <p *ngIf="idx == 0">You are going to answer {{questions.length * 5}} questions</p>
-  <button *ngIf="idx == 0" (click)="start()">Start</button>
-  <button *ngIf="idx != questions.length && idx > 0" (click)="getNextQuestion()">Next</button>
-  <button *ngIf="idx == questions.length && !finished" (click)="finishQuiz()">Finish</button>
+<div class="center">
+  <p *ngIf="idx == 0">
+    You are going to answer {{questions.length * 5}} questions. Your time will be limited!
+  </p>
+  <button class="important" *ngIf="idx == 0 && !finished" (click)="start()">Start</button>
+  <button *ngIf="idx != questions.length && idx > 0 && !finished" (click)="getNextQuestion()">Next</button>
+  <button class="important" *ngIf="idx == questions.length && !finished" (click)="finishQuiz()">Finish</button>
+  <br>
 </div>
-<div class = "center" *ngIf="finished">
+<div class="center-result" *ngIf="finished">
   <p>Your result is {{computePercentage()}}% !</p>
 </div>
-
+<countdown-timer class="time" *ngIf="!finished"
+                 (zeroTrigger)="finishQuiz()" [end]="quizTime"></countdown-timer>
