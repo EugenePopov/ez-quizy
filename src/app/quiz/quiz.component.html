@@ -1,10 +1,5 @@
-<p>
-  quiz works!
-  <button *ngIf="idx != questions.length" (click)="getNextQuestion()">Next</button>
-  <button *ngIf="idx == questions.length" (click)="finishQuiz()">Finish</button>
-</p>
 <div style="align-content:center" *ngIf="currentQuestion != undefined">
-  <p>{{currentQuestion.question}}</p>
+  <p>{{idx}}. {{currentQuestion.question}}</p>
   <table>
     <tbody>
     <tr *ngFor="let c of currentQuestion.choices">
@@ -17,6 +12,15 @@
     </tr>
     </tbody>
   </table>
-
+  <hr>
+</div>
+<div>
+  <p *ngIf="idx == 0">You are going to answer {{questions.length * 5}} questions</p>
+  <button *ngIf="idx == 0" (click)="start()">Start</button>
+  <button *ngIf="idx != questions.length && idx > 0" (click)="getNextQuestion()">Next</button>
+  <button *ngIf="idx == questions.length && !finished" (click)="finishQuiz()">Finish</button>
+</div>
+<div class = "center" *ngIf="finished">
+  <p>Your result is {{computePercentage()}}% !</p>
 </div>
 
